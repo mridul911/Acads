@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/background1"
+    tools:context=".upload">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Sharing"
+        android:textSize="30sp"
+        android:textColor="#FFEB3B"
+        android:textAlignment="center"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginTop="20dp"
+
+        />
+    <EditText
+        android:id="@+id/txt_pdfName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter File name"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="22sp"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_upload"
+        android:layout_marginLeft="5dp"
+        android:text="Upload"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_view"
+        android:layout_marginLeft="5dp"
+        android:text="View File"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:onClick="btn_action"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/l_layout"
+    android:background="@drawable/background1">
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="333dp"
+        android:layout_height="279dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/teacher"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="329dp"
+        android:layout_height="276dp"
+        android:layout_gravity="center"
+        android:src="@drawable/student" />
+</LinearLayout>
