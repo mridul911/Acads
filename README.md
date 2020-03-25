@@ -1,8 +1,14 @@
 # Acads(Database-firebase)
 ####Screenshots (Attacheds)(before going to ss please read note)
+
+
+
 This project basically deals with 
+
 1.Files sharing system(pdf) which are send by faculty and seen by students
+
 2.Chat application which basically help student to ask doubt to teacher personally by contacting
+
 3.Notice board application which helps professor to add notices in it 
 
 It also has  login and signin page twice one for application and other for accessing chat app
